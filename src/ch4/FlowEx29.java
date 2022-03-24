@@ -7,12 +7,12 @@ public class FlowEx29 {
 
             int tmp = i;
 
-            do{
+            do {
                 // tmp%10이 3의 배수인지 확인(0 제외)
-                if(tmp%10%3==0&&tmp%10!=0)
+                if (tmp % 10 % 3 == 0 && tmp % 10 != 0)
                     System.out.print("짝");
                 // tmp /= 10은 tmp = tmp/10과 동일
-            } while((tmp/=10)!=0);
+            } while ((tmp /= 10) != 0);
             System.out.println();
         }
     }
