@@ -9,7 +9,7 @@ class ArrayEx10 {
         }
         System.out.println();
 
-        for (int i=0; i < numArr.length; i++){
+        for (int i=0; i < numArr.length-1; i++){
             boolean changed = false;
 
             for (int j=0; j<numArr.length-1-i; j++){
