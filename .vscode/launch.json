@@ -1,0 +1,700 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "ch1.Hello",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch CastingEx1",
+            "request": "launch",
+            "mainClass": "ch2.CastingEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch CastingEx2",
+            "request": "launch",
+            "mainClass": "ch2.CastingEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch CastingEx3",
+            "request": "launch",
+            "mainClass": "ch2.CastingEx3",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch CastingEx4",
+            "request": "launch",
+            "mainClass": "ch2.CastingEx4",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharToCode",
+            "request": "launch",
+            "mainClass": "ch2.CharToCode",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloatEx1",
+            "request": "launch",
+            "mainClass": "ch2.FloatEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloatToBinEx",
+            "request": "launch",
+            "mainClass": "ch2.FloatToBinEx",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverFlowEx",
+            "request": "launch",
+            "mainClass": "ch2.OverFlowEx",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintfEx1",
+            "request": "launch",
+            "mainClass": "ch2.PrintfEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintfEx2",
+            "request": "launch",
+            "mainClass": "ch2.PrintfEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerEx",
+            "request": "launch",
+            "mainClass": "ch2.ScannerEx",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialCharEx",
+            "request": "launch",
+            "mainClass": "ch2.SpecialCharEx",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringEx",
+            "request": "launch",
+            "mainClass": "ch2.StringEx",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarEx1",
+            "request": "launch",
+            "mainClass": "ch2.VarEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarEx2",
+            "request": "launch",
+            "mainClass": "ch2.VarEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEX9",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEX9",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx1",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx10",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx10",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx11",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx11",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx12",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx12",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx13",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx13",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx14",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx14",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx15",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx15",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx16",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx16",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx17",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx17",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx18",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx18",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx19",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx19",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx2",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx20",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx20",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx21",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx21",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx22",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx22",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx23",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx23",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx24",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx24",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx25",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx25",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx26",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx26",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx27",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx27",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx28",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx28",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx29",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx29",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx3",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx3",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx30",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx30",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx31",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx31",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx32",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx32",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx4",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx4",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx5",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx5",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx6",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx6",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx7",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx7",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx8",
+            "request": "launch",
+            "mainClass": "ch3.OperatorEx8",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx1",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx10",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx10",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx11",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx11",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx12",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx12",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx13",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx13",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx14",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx14",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx15",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx15",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx16",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx16",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx17",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx17",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx18",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx18",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx19",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx19",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx2",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx20",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx20",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx21",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx21",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx22",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx22",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx23",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx23",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx24",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx24",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx25",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx25",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx26",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx26",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx27",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx27",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx28",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx28",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx29",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx29",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx3",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx3",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx30",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx30",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx31",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx31",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx32",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx32",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx33",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx33",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx34",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx34",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx4",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx4",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx5",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx5",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx6",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx6",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx7",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx7",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx8",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx8",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx9",
+            "request": "launch",
+            "mainClass": "ch4.FlowEx9",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx1",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx1",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx10",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx10",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx11",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx11",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx12",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx12",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx13",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx13",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx14",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx14",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx15",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx15",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx16",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx16",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx2",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx2",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx3",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx3",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx4",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx4",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx5",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx5",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx6",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx6",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx7",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx7",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx8",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx8",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx9",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx9",
+            "projectName": "practice"
+        }
+    ]
+}
