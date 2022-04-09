@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayEx17",
+            "request": "launch",
+            "mainClass": "ch5.ArrayEx17",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
