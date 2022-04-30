@@ -29,5 +29,7 @@ class ArrayEx17 {
                 System.out.println("지원되지 않는 연산입니다.");
         }
         System.out.println("결과:" + result);
+
+        
     }
 }
