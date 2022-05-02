@@ -1,38 +1,62 @@
 package ch5;
 
-class ArrayEx19 {
+import java.util.*;
+
+class MultiArrayEx1 {
     public static void main(String[] args) {
-        int[][] score = {
-                            {100, 100, 100}
-                           ,{20, 20, 20}
-                           ,{30, 30, 30}
-                           ,{40, 40, 40}
-                           ,{50, 50, 50}
-                        };
-        int korTotal = 0, engTotal = 0, mathTotal = 0;
+        final int SIZE = 10;
+        int x = 0, y = 0;
 
-        System.out.println("번호 국어 영어 수학 총점 평균 ");
-        System.out.println("==============================");
+        char[][] board = new char[SIZE][SIZE];
+        byte[][] shipBoard = {
+                //  1  2  3  4  5  6  7  8  9
+                  { 0, 0, 0, 0, 0, 0, 1, 0, 0 } // 1
+                , { 1, 1, 1, 1, 0, 0, 1, 0, 0 } // 2
+                , { 0, 0, 0, 0, 0, 0, 1, 0, 0 } // 3
+                , { 0, 0, 0, 0, 0, 0, 1, 0, 0 } // 4
+                , { 0, 0, 0, 0, 0, 0, 0, 0, 0 } // 5
+                , { 1, 1, 0, 1, 0, 0, 0, 0, 0 } // 6
+                , { 0, 0, 0, 1, 0, 0, 0, 0, 0 } // 7
+                , { 0, 0, 0, 1, 0, 0, 0, 0, 0 } // 8
+                , { 0, 0, 0, 0, 0, 1, 1, 1, 0 } // 9
+        };
 
-        for(int i = 0; i < score.length; i++) {
-            int sum = 0;
-            float avg = 0.0f;
+        // 1행에 행번호를, 1열에 열번호를 저장한다.
+        for (int i = 1; i < SIZE; i++)
+            board[0][i] = board[i][0] = (char) (i + '0');
 
-            korTotal  += score[i][0];
-            engTotal  += score[i][1];
-            mathTotal += score[i][2];
-            System.out.printf("%3d", i+1);
+        Scanner scanner = new Scanner(System.in);
 
-            for(int j = 0; j < score[i].length; j++) {
-                sum += score[i][j];
-                System.out.printf("%5d", score[i][j]);
+        while (true) {
+            System.out.printf("좌표를 입력하세요.(종료는 00)>");
+            String input = scanner.nextLine(); // 화면입력받은 내용을 input에 저장
+
+            if (input.length() == 2) {
+                x = input.charAt(0) - '0';
+                y = input.charAt(1) - '0';
+
+                if (x == 0 && y == 0)
+                    break;
             }
 
-            avg += sum/(float)score[i].length;
-            System.out.printf("%5d %5.1f%n", sum, avg);
-        }
+            if (input.length() != 2 || x <= 0 || x >= SIZE || y <= 0 || y >= SIZE) {
+                System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+                continue;
+            }
 
-        System.out.println("==============================");
-        System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
+            board[0][0] = '\s';
+            for(int i=1;i<SIZE;i++)
+                for(int j=1;j<SIZE;j++)
+                    board[i][j] = '\s';
+
+
+            // shipBoard[x-1][y-1]의 값이 1이면, 'O'를 board[x][y]에 저장한다.
+            board[x][y] = shipBoard[x - 1][y - 1] == 1 ? 'O' : 'X';
+
+            // 배열 board의 내용을 화면에 출력한다.
+            for (int i = 0; i < SIZE; i++)
+                System.out.println(board[i]);
+            System.out.println();
+        }
     }
 }
